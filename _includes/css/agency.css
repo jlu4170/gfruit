@@ -335,6 +335,15 @@ section h2.section-heading {
     font-size: 40px;
 }
 
+section h2.service-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+    @media (max-width: 700px) {
+        font-size: 25px;
+    }
+}
+
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
