@@ -1,7 +1,7 @@
 $(function () {
 
     $("input,textarea").jqBootstrapValidation({
-        //preventSubmit: true,
+        preventSubmit: true,
         submitError: function ($form, event, errors) {
             $('#success').html("<div class='alert alert-danger'>");
             $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
