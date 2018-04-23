@@ -24,4 +24,4 @@ address:
 markdown: kramdown
 permalink: pretty
 
-include: _redirects
+include: [_redirects]
