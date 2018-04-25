@@ -274,7 +274,7 @@ header {
     color: white;
     
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/c.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -307,8 +307,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 250px;
+        padding-bottom: 300px;
     }
 
     header .intro-text .intro-lead-in {
@@ -326,6 +326,10 @@ header .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+    }
+
+    header .spacer {
+        height: 100px;
     }
 }
 
