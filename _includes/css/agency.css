@@ -278,7 +278,7 @@ header {
     color: white;
     
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/c.jpg');
+    background-image: url('{{ site.baseurl }}/img/beach.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
