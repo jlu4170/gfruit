@@ -186,9 +186,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
-    min-width: 330px;
-    height: 75px;
-    background-image: url('{{ site.baseurl }}/img/logo.png');
+    margin-top: -25px;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -199,7 +197,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-right{
-    margin-top:15px;
+    margin-top:5px;
 }
 .navbar-default .navbar-collapse {
     border-color: rgba(255,255,255,.02);
