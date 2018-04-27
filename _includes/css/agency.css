@@ -91,7 +91,7 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: #{{ site.data.template.color.secondary }};
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
 }
@@ -143,7 +143,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: #{{ site.data.template.color.secondary }};
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
 }
@@ -186,6 +186,9 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
+    min-width: 330px;
+    height: 75px;
+    background-image: url('{{ site.baseurl }}/img/logo.png');
 }
 
 .navbar-default .navbar-brand:hover,
@@ -195,6 +198,9 @@ fieldset[disabled] .btn-xl.active {
     color: #{{ site.data.template.color.secondary }};
 }
 
+.navbar-right{
+    margin-top:15px;
+}
 .navbar-default .navbar-collapse {
     border-color: rgba(255,255,255,.02);
 }
@@ -307,6 +313,9 @@ header .intro-text .intro-heading {
     font-size: 40px;
     font-weight: 700;
     line-height: 50px;
+}
+
+header .logo {
 }
 
 @media(min-width:768px) {
