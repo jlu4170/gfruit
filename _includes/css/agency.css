@@ -187,13 +187,27 @@ fieldset[disabled] .btn-xl.active {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
     margin-top: -25px;
+    display: block;
+    width: 100%;
+    max-width: 250px; /* change this to whatever you want the 'standard' size to be */
+    height: auto;
+    padding-bottom:0px;
+    
 }
+
+@media(max-width:500px){
+    .navbar-default .navbar-brand {
+        margin-top:0px;
+        padding:0;
+    }
+}
+
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-right{
@@ -206,6 +220,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-toggle {
     border-color: #{{ site.data.template.color.primary }};
     background-color: #{{ site.data.template.color.primary }};
+    margin-top:25px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -243,7 +258,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 @media(min-width:768px) {
@@ -313,8 +328,6 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
-header .logo {
-}
 
 @media(min-width:768px) {
     header .intro-text {
