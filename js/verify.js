@@ -17,9 +17,6 @@
             "idDocSetType": "IDENTITY",
             "types": ["ID_CARD", "PASSPORT", "DRIVERS"]
         }, {
-            "idDocSetType": "SELFIE",
-            "types": ["SELFIE"]
-        }, {
             "idDocSetType": "PROOF_OF_RESIDENCE",
             "types": ["UTILITY_BILL"],
             "fields": [{
