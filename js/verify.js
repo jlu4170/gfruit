@@ -1,5 +1,7 @@
 
-  var id = idensic.init({
+  var id = idensic.init(
+        '#idensic',
+    {
     "clientId": "Grapefruit Trading",
     "requiredIdDocs": {
         "docSets": [{
