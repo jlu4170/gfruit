@@ -4,7 +4,7 @@
     // configuration object (see the settings in demo)
     {
       // provide your clientId (can be seen in the demo)
-      "clientId": "YouClientId",
+      "clientId": " Grapefruit Trading",
       // maybe some additional parameters, see the Demo to see which ones, e.g.
       "externalUserId": "someUserIdInYoursystem"
     },
