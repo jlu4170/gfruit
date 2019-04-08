@@ -67,10 +67,12 @@
                 "videoRequired": "disabled"
             },
             "INVESTABILITY": {
-                "videoRequired": "disabled"
+                "videoRequired": "disabled",
+              "title":"Counterparty Type"
             },
             "ACCREDITED_INVESTOR": {
                 "videoRequired": "disabled"
+              
             },
             "STATUS": {
                 "pending": {
