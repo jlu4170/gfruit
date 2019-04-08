@@ -36,9 +36,6 @@
             }, {
                 "name": "country"
             }]
-        }, {
-            "idDocSetType": "INVESTABILITY",
-            "types": ["INCOME_SOURCE", "COMPANY_DOC"]
         }]
     },
     "navConf": {
