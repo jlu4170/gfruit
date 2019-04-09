@@ -4,7 +4,12 @@
     {
     "clientId": "Grapefruit Trading",
     "requiredIdDocs": {
+      
         "docSets": [{
+          "idDocSetType": "INVESTABILITY", 
+            "types": [ "INCOME_SOURCE", "COMPANY_DOC" ],
+            "fields": null },
+          {
             "idDocSetType": "APPLICANT_DATA",
             "fields": [{
                 "name": "firstName",
