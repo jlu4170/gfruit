@@ -70,10 +70,12 @@
             },
             "PROOF_OF_RESIDENCE": {
                 "videoRequired": "disabled"
+                "stepName":"Proof of Residence"
+
             },
             "INVESTABILITY": {
                 "videoRequired": "disabled",
-              "title":"Counterparty Type"
+                "stepName":"Counterparty Type"
             },
             "ACCREDITED_INVESTOR": {
                 "videoRequired": "disabled"
