@@ -7,7 +7,7 @@
       
         "docSets": [{
           "idDocSetType": "INVESTABILITY", 
-            "types": [ "INCOME_SOURCE", "COMPANY_DOC" ],
+            "types": [ "COMPANY_DOC" ],
             "fields": null },
           {
             "idDocSetType": "APPLICANT_DATA",
