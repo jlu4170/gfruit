@@ -8,7 +8,8 @@
         "docSets": [{
           "idDocSetType": "INVESTABILITY", 
             "types": [ "COMPANY_DOC" ],
-            "fields": null },
+            "fields": null
+          },
           {
             "idDocSetType": "APPLICANT_DATA",
             "fields": [{
@@ -69,7 +70,7 @@
                 "videoRequired": "disabled"
             },
             "PROOF_OF_RESIDENCE": {
-                "videoRequired": "disabled"
+                "videoRequired": "disabled",
                 "stepName":"Proof of Residence"
 
             },
