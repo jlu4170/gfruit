@@ -5,21 +5,13 @@
     "clientId": "Grapefruit Trading",
     "requiredIdDocs": {
       
-        "docSets": [{
+        "docSets": [
+          {
           "idDocSetType": "INVESTABILITY", 
             "types": [ "COMPANY_DOC" ],
             "fields": null
           },
           {
-            "idDocSetType": "APPLICANT_DATA",
-            "fields": [{
-                "name": "firstName",
-                "required": true
-            }, {
-                "name": "lastName",
-                "required": true
-            }]
-        }, {
             "idDocSetType": "IDENTITY",
             "types": ["ID_CARD", "PASSPORT", "DRIVERS"]
         }, {
