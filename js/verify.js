@@ -7,11 +7,6 @@
       
         "docSets": [
           {
-          "idDocSetType": "INVESTABILITY", 
-            "types": [ "COMPANY_DOC" ],
-            "fields": null
-          },
-          {
             "idDocSetType": "IDENTITY",
             "types": ["ID_CARD", "PASSPORT", "DRIVERS"]
         }, {
