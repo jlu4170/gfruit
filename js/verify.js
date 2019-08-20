@@ -4,9 +4,8 @@
     {
     "clientId": "Grapefruit Trading",
     "externalUserId": "random-le5i7mo3dk",
-    "accessToken": "_act-6deb92ee-1719-4b31-b212-6d4e0fcb04a1",
+    "accessToken": "_act-b880d73c-4eb4-46ba-871f-98873d9e17a1",
     "requiredIdDocs": {
-      
         "docSets": [
           {
             "idDocSetType": "IDENTITY",
