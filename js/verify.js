@@ -31,7 +31,10 @@
         }]
     },
     "navConf": {
-        "showWelcomeScreen": true
+        "showWelcomeScreen": true,
+        "skipAgreementsScreen": false,
+        "skipReviewScreen": false,
+        "registration": "enabled"
     },
     "uiConf": {
         "customCss": "",
