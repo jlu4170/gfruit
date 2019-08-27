@@ -3,8 +3,6 @@
         '#idensic',
     {
     "clientId": "Grapefruit Trading",
-    "externalUserId": "random-le5i7mo3dk",
-    "accessToken": "_act-a33daad0-033f-4f34-a685-4809b548ce71",
     "requiredIdDocs": {
         "docSets": [
           {
